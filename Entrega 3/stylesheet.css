@@ -133,7 +133,6 @@ a {
     margin-left: 300px;
 }
 
-}
 .lista ul li {
     color: black;
     font-family: "Courier New" ;
@@ -195,7 +194,7 @@ nav li {
     margin: 0;
     padding: 0;
     position: relative;
-    min-width: 25%;
+    min-width: 33.33%;
     font-family: "Courier New" ;
 }
 nav a {
@@ -270,10 +269,7 @@ nav li ul a:hover {
 .cf:after {
     clear:both;
     font-family: "Courier New" ;
-
 }
 .cf {
-    zoom:1;
     font-family: "Courier New" ;
-
 }​
