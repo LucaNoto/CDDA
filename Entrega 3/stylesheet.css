@@ -80,6 +80,7 @@ h1 {
     margin-bottom: 50px;
     margin-right: 200px;
     margin-left: 200px;
+    text-align:center;
 
 }
 
@@ -91,15 +92,18 @@ h2{
     margin-right: 470px;
     margin-left: 470px;
     color: #1954A0;
+    text-align:center;
 }
 
 h3{
     font-family: "Courier New" ;
     color: #1954A0;
+    text-align:center;
 }
 h4{
     font-family: "Courier New" ;
     color: black;
+    text-align:center;
 }
 
 p {
@@ -113,6 +117,7 @@ p {
 }
 
 li {
+    text-align:center;
     list-style: none;
     font-family: "Courier New" ;
 }
@@ -121,6 +126,7 @@ a {
     color: #F06A67;
     text-decoration: none;
     font-family: "Courier New" ;
+
 }
 
 .lista li a:hover{
@@ -153,6 +159,8 @@ a {
 
 .perfil img {
     border: solid black;
+    margin-right: 430px;
+    margin-left: 430px;
 }
 
 div.img {
