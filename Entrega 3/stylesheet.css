@@ -11,6 +11,7 @@ ul {
    list-style: none;
    margin: 0;
    padding: 0;
+   margin-left: -40px;
 }
 .container {
    margin: 0 auto;
@@ -73,21 +74,21 @@ body{
 
 h1 {
     font-size: 40px;
-    font-family:  "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
+    font-family:  "Century Gothic", sans-serif; 
     color: #1954A0 ;
     border-bottom: 3px solid black;
-    margin-top: 50px;
+    margin-top: 90px;
     margin-bottom: 50px;
-    margin-right: 200px;
-    margin-left: 200px;
+    margin-right: 160px;
+    margin-left: 160px;
     text-align:center;
 
 }
 
 h2{
-    border-bottom: solid black ;
+    border-bottom: 2px solid black ;
     font-family: "Courier New" ;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 30px;
     margin-right: 470px;
     margin-left: 470px;
@@ -98,12 +99,12 @@ h2{
 h3{
     font-family: "Courier New" ;
     color: #1954A0;
-    text-align:center;
+
+
 }
 h4{
     font-family: "Courier New" ;
     color: black;
-    text-align:center;
 }
 
 p {
@@ -130,7 +131,8 @@ a {
 }
 
 .lista li a:hover{
-    color: #1954A0;
+    color: #F06A67;
+    font-weight: bold;
 }
 
 .lista a:visited {
@@ -153,15 +155,28 @@ a {
     font-family: "Courier New" ;
     margin-top: 30px;
     margin-bottom: 30px;
-    margin-right: 200px;
-    margin-left: 200px;
+    margin-right: 160px;
+    margin-left: 160px;
+    border: 1px solid #808080; 
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .perfil img {
     border: solid black;
-    margin-right: 430px;
-    margin-left: 430px;
+    margin-right: 34%;
+    margin-left: 34%;
 }
+
+.infos h3 {
+    text-align:center;
+}
+
+.infos h4 {
+    text-align:center;
+}
+
+
 
 div.img {
     margin: 65px;
@@ -196,6 +211,9 @@ nav ul {
     padding: 0;
     width: 100%;
     font-family: "Courier New" ;
+    position: fixed; 
+    top: 10px;
+    left:0px ;
 }
 nav li {
     float: left;
@@ -280,4 +298,4 @@ nav li ul a:hover {
 }
 .cf {
     font-family: "Courier New" ;
-}​
+}
